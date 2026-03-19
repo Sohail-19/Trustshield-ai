@@ -1,334 +1,182 @@
-🚀 TrustShield AI
-Behavior-Driven Parametric Insurance for India’s Gig Workers
-📌 Problem Statement
+![Status](https://img.shields.io/badge/status-active-success)
+![AI](https://img.shields.io/badge/AI-powered-blue)
+![Hackathon](https://img.shields.io/badge/DEVTrails-2026-orange)
 
-India’s gig workers (Zomato, Swiggy, Amazon, Zepto, etc.) face frequent income loss (20–30%) due to external disruptions such as:
+🚀TrustShield AI
+Behavior-Driven Parametric Insurance for Gig Workers
+🌟 Overview
 
-🌧️ Extreme weather (rain, heatwaves, floods)
+TrustShield AI is an AI-powered parametric insurance platform designed to protect gig workers from income loss caused by real-world disruptions.
 
-🌫️ Pollution (high AQI)
+Unlike traditional insurance systems, TrustShield introduces a TrustScore-based intelligence layer to ensure:
 
-🚧 Curfews / strikes / zone closures
+⚡ Instant payouts
 
-Currently, there is no reliable income protection system. Existing insurance models:
+🤖 Smart pricing
 
-Are slow ❌
+🔍 Fraud-resistant claims
 
-Require manual claims ❌
+🎯 Problem
 
-Are vulnerable to fraud ❌
+Gig workers lose 20–30% income due to:
 
-💡 Our Solution
+🌧️ Weather disruptions
 
-TrustShield AI is an AI-powered parametric insurance platform that:
+🌫️ Pollution (AQI spikes)
 
-Automatically detects disruptions
+🚧 Local restrictions
 
-Verifies if a worker is genuinely affected
+❌ No protection
+❌ Manual claim systems
+❌ High fraud risk
 
-Instantly processes payouts
+💡 Our Approach
 
-Uses a TrustScore system to prevent fraud
+We insure verified real-world impact, not just events.
 
-🎯 Key Innovation (USP)
+🔥 Core Idea:
 
-🔥 We don’t just insure events — we insure verified real-world behavior
+TrustScore = Behavior + Risk + Authenticity
 
-Unlike traditional systems that rely only on GPS or weather triggers, we introduce:
+🧠 Key Features
+⚡ 1. Parametric Automation
 
-✅ TrustScore Engine (0–100)
+Auto-detect disruptions
 
-A real-time behavioral intelligence score that:
+No manual claims
 
-Detects fraud
+Instant payout system
 
-Adjusts premiums
+🤖 2. AI-Based Risk Engine
 
-Controls payouts
+Weekly premium calculation
 
-👤 Target Persona
+Zone-based risk modeling
 
-We focus on:
+🔍 3. TrustScore System (USP)
 
-👉 Food Delivery Workers (Swiggy / Zomato Riders)
-
-Persona Scenario:
-
-Ravi, a delivery partner:
-
-Works 8–10 hours/day
-
-Relies on daily earnings
-
-Faces income loss during heavy rain or pollution
-
-⚙️ System Workflow
-1. Onboarding
-
-User registers (mobile/web)
-
-Inputs:
-
-Work zone
-
-Work hours
-
-Delivery platform
-
-2. Risk Profiling (AI-Based)
-
-Analyze:
-
-Location risk (weather patterns, AQI, etc.)
-
-Historical disruption data
-
-Assign initial TrustScore
-
-3. Weekly Policy Creation
-
-Dynamic premium calculated based on:
-
-Risk level
-
-TrustScore
-
-4. Real-Time Monitoring
-
-System continuously tracks:
-
-Weather APIs
-
-AQI data
-
-Zone disruptions
-
-5. Parametric Trigger Activation
-
-Example triggers:
-
-🌧️ Rainfall > threshold → delivery slowdown
-
-🌫️ AQI > 300 → unsafe conditions
-
-🚧 Zone closure detected
-
-6. Smart Claim Verification
-
-Claim is approved only if:
-
-Disruption detected ✅
-
-Worker activity matches disruption ✅
-
-TrustScore above threshold ✅
-
-7. Instant Payout
-
-Automated payout via:
-
-UPI (simulated)
-
-Wallet system
-
-💰 Weekly Pricing Model
-
-We use AI-based dynamic pricing:
-
-TrustScore	Risk Level	Weekly Premium
-80–100	Low Risk	₹30
-50–79	Medium Risk	₹50
-<50	High Risk	₹80
-
-👉 Premium adjusts weekly based on behavior & risk
-
-🤖 AI/ML Integration
-1. Risk Prediction Model
-
-Predicts likelihood of disruptions
-
-Uses:
-
-Weather patterns
-
-Zone data
-
-2. TrustScore Model (Core AI)
-
-Factors:
+Each worker gets a dynamic TrustScore (0–100) based on:
 
 Movement patterns
 
-Delivery consistency
+Work consistency
 
 Claim history
 
-Activity during disruptions
+Behavioral signals
 
-3. Fraud Detection Model
+🛡️ 4. Fraud Detection (Advanced)
 
-Detects anomalies such as:
+We go beyond GPS:
 
-GPS spoofing
+📱 Sensor validation
 
-Fake claims
+📶 Network pattern analysis
 
-Coordinated fraud
+📊 Behavioral anomaly detection
 
-🔌 Integrations
-
-🌦️ Weather API (OpenWeather / mock)
-
-🌫️ AQI API
-
-📍 Location tracking
-
-💳 Payment gateway (mock / sandbox)
-
+⚙️ System Flow
+💰 Weekly Pricing Model
+TrustScore	Risk Level	Premium
+80–100	Low	₹30
+50–79	Medium	₹50
+<50	High	₹80
 📊 Dashboard
-Worker View:
+👤 Worker View
 
-Active policy
-
-Weekly premium
+Active coverage
 
 TrustScore
 
 Earnings protected
 
-Admin View:
+🧑‍💼 Admin View
 
-Fraud detection alerts
+Fraud alerts
 
 Risk zones
 
 Claim analytics
 
-🚨 Adversarial Defense & Anti-Spoofing Strategy
-🔥 Problem
+🚨 Anti-Spoofing Strategy (CRITICAL)
+🧠 Problem
 
-A fraud syndicate uses:
+Fraud via:
 
 GPS spoofing
 
-Fake location signals
+Fake weather claims
 
-Coordinated claims
+Coordinated attacks
 
-🧠 1. Differentiation Strategy
-
-We do NOT rely on GPS alone.
+🔥 Our Solution
+1. Behavioral Differentiation
+Real Worker	Fraud User
+Natural movement	Static/spoofed
+Delivery patterns	No activity
+Random routes	Repetitive
+2. Multi-Signal Verification
 
 We analyze:
-👉 Behavioral realism
 
-Real Worker:
+📱 Accelerometer
 
-Natural movement patterns
+🔄 Gyroscope
 
-Delivery-based routes
+🔋 Battery usage
 
-Irregular stops
+📶 Network variation
 
-Fraud User:
+📍 Route history
 
-Static or artificial movement
+⏱️ Activity patterns
 
-No delivery activity
+3. Fair UX System
 
-Repetitive patterns
+Instead of rejecting:
 
-📊 2. Data Beyond GPS
+⚠️ Flag → Soft verification
 
-We use multi-signal verification:
+📸 Selfie + live check
 
-📱 Accelerometer → movement validation
+✔️ Genuine users → smooth
+❌ Fraud users → blocked
 
-🔄 Gyroscope → turning patterns
+🔌 Integrations
 
-🔋 Battery usage → realistic activity
+Weather API
 
-📶 Network signal variations
+AQI API
 
-📍 Historical route data
+Maps / Location
 
-⏱️ Idle vs active time
-
-📦 Delivery app usage
-
-⚖️ 3. UX Balance (Fairness System)
-
-We ensure genuine users are not penalized:
-
-If flagged:
-
-Soft verification triggered:
-
-Selfie + live location
-
-Recent activity check
-
-Outcomes:
-
-Genuine user → fast approval
-
-Fraud user → blocked
-
-🔮 Future Enhancements
-
-Zone-based fraud heatmaps
-
-Real-time ML model updates
-
-Platform integrations (Swiggy/Zomato APIs)
-
-Personalized insurance plans
+Payment Gateway (Mock)
 
 🛠️ Tech Stack
-Frontend:
+Layer	Tech
+Frontend	React / Flutter
+Backend	Node.js / Django
+AI/ML	Python
+Database	MongoDB
+📁 Project Structure
+/client
+/server
+/ml-models
+/docs
+README.md
+🎥 Demo
 
-React / Flutter
-
-Backend:
-
-Node.js / Django
-
-AI/ML:
-
-Python (Scikit-learn / TensorFlow)
-
-Database:
-
-MongoDB / PostgreSQL
-
-APIs:
-
-Weather, AQI, Maps
-
-📁 Repository Structure
-/client       → Frontend  
-/server       → Backend  
-/ml-models    → AI logic  
-/docs         → Documentation  
-README.md     → This file  
-🎥 Demo Video
-
-👉 [Add your 2-minute video link here]
+👉 Add your 2-minute video link here
 
 👥 Team
 
 Team Name: [Your Team Name]
 
-Members: [List members]
+Members: [Names]
 
-🏁 Conclusion
+🏁 Why TrustShield Wins
 
-TrustShield AI redefines insurance for gig workers by combining:
-
-Parametric automation ⚡
-
-AI-driven pricing 🤖
-
-Behavioral fraud detection 🔍
-
-👉 Creating a fast, fair, and fraud-resistant income protection system
+✔️ Real-world fraud solution
+✔️ AI-driven pricing
+✔️ Behavior-based validation
+✔️ Scalable architecture
