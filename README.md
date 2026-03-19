@@ -1,182 +1,215 @@
-![Status](https://img.shields.io/badge/status-active-success)
-![AI](https://img.shields.io/badge/AI-powered-blue)
-![Hackathon](https://img.shields.io/badge/DEVTrails-2026-orange)
+<div align="center">
 
-🚀TrustShield AI
-Behavior-Driven Parametric Insurance for Gig Workers
-🌟 Overview
+# 🚀 TrustShield AI
+### Behavior-Driven Parametric Insurance for Gig Workers
 
-TrustShield AI is an AI-powered parametric insurance platform designed to protect gig workers from income loss caused by real-world disruptions.
+*We insure verified real-world impact — not just events.*
 
-Unlike traditional insurance systems, TrustShield introduces a TrustScore-based intelligence layer to ensure:
+</div>
 
-⚡ Instant payouts
+---
 
-🤖 Smart pricing
+## 🌟 Overview
 
-🔍 Fraud-resistant claims
+**TrustShield AI** is an AI-powered parametric insurance platform designed to protect gig workers from income loss caused by real-world disruptions.
 
-🎯 Problem
+Unlike traditional insurance systems, TrustShield introduces a **TrustScore-based intelligence layer** to ensure:
 
-Gig workers lose 20–30% income due to:
+| ⚡ Instant Payouts | 🤖 Smart Pricing | 🔍 Fraud-Resistant Claims |
+|:---:|:---:|:---:|
+| No waiting, no forms | AI-driven weekly premiums | Behavior-based verification |
 
-🌧️ Weather disruptions
+---
 
-🌫️ Pollution (AQI spikes)
+## 🎯 Problem
 
-🚧 Local restrictions
+> Gig workers lose **20–30% of their income** due to disruptions — with zero protection.
 
-❌ No protection
-❌ Manual claim systems
-❌ High fraud risk
+**Root Causes**
+- 🌧️ Weather disruptions
+- 🌫️ Pollution (AQI spikes)
+- 🚧 Local restrictions
 
-💡 Our Approach
+**System Gaps**
+- ❌ No income protection exists
+- ❌ Manual, slow claim systems
+- ❌ High fraud risk with no detection
 
-We insure verified real-world impact, not just events.
+---
 
-🔥 Core Idea:
+## 💡 Our Approach
 
-TrustScore = Behavior + Risk + Authenticity
+```
+TrustScore  =  Behavior  +  Risk  +  Authenticity
+```
 
-🧠 Key Features
-⚡ 1. Parametric Automation
+We don't just detect events — we verify **real impact on real workers**.
 
-Auto-detect disruptions
+---
 
-No manual claims
+## 🧠 Key Features
 
-Instant payout system
+### ⚡ 1. Parametric Automation
+- Auto-detects disruptions via live data feeds
+- Zero manual claims required
+- Instant payout triggered automatically
 
-🤖 2. AI-Based Risk Engine
+### 🤖 2. AI-Based Risk Engine
+- Weekly premium recalculation
+- Zone-based risk modeling per worker location
 
-Weekly premium calculation
+### 🔍 3. TrustScore System *(Our USP)*
 
-Zone-based risk modeling
+Each worker receives a dynamic **TrustScore (0–100)** based on:
 
-🔍 3. TrustScore System (USP)
+| Signal | What We Measure |
+|--------|----------------|
+| 🚶 Movement Patterns | Natural vs. static/spoofed GPS |
+| 💼 Work Consistency | Active delivery behavior |
+| 📋 Claim History | Past claim legitimacy |
+| 📡 Behavioral Signals | Sensor & network authenticity |
 
-Each worker gets a dynamic TrustScore (0–100) based on:
+### 🛡️ 4. Advanced Fraud Detection
 
-Movement patterns
+We go beyond GPS — combining multiple device signals:
 
-Work consistency
+`📱 Accelerometer` · `🔄 Gyroscope` · `🔋 Battery Usage` · `📶 Network Variation` · `📍 Route History` · `⏱️ Activity Patterns`
 
-Claim history
+---
 
-Behavioral signals
+## ⚙️ System Flow
 
-🛡️ 4. Fraud Detection (Advanced)
+```
+Worker Onboards
+      ↓
+TrustScore Initialized
+      ↓
+Weekly Premium Assigned (AI Engine)
+      ↓
+Disruption Auto-Detected (Weather / AQI / Restrictions)
+      ↓
+Multi-Signal Fraud Check
+      ↓
+✅ Instant Payout Released
+```
 
-We go beyond GPS:
+---
 
-📱 Sensor validation
+## 💰 Weekly Pricing Model
 
-📶 Network pattern analysis
+| TrustScore | Risk Level | Weekly Premium |
+|:----------:|:----------:|:--------------:|
+| 🟢 80 – 100 | Low | ₹30 |
+| 🟡 50 – 79 | Medium | ₹50 |
+| 🔴 < 50 | High | ₹80 |
 
-📊 Behavioral anomaly detection
+---
 
-⚙️ System Flow
-💰 Weekly Pricing Model
-TrustScore	Risk Level	Premium
-80–100	Low	₹30
-50–79	Medium	₹50
-<50	High	₹80
-📊 Dashboard
-👤 Worker View
+## 📊 Dashboard
 
-Active coverage
+**👤 Worker View**
+- Active coverage status
+- Live TrustScore
+- Earnings protected
 
-TrustScore
+**🧑‍💼 Admin View**
+- Fraud alerts & flagged users
+- Risk zone heatmap
+- Claim analytics
 
-Earnings protected
+---
 
-🧑‍💼 Admin View
+## 🚨 Anti-Spoofing Strategy
 
-Fraud alerts
+### The Problem
+Fraud attempts via:
+- GPS spoofing
+- Fake weather claim timing
+- Coordinated group attacks
 
-Risk zones
+### Our Solution
 
-Claim analytics
+**1. Behavioral Differentiation**
 
-🚨 Anti-Spoofing Strategy (CRITICAL)
-🧠 Problem
+| Attribute | ✅ Real Worker | ❌ Fraud User |
+|-----------|:-------------:|:------------:|
+| Movement | Natural, varied | Static / spoofed |
+| Activity | Delivery patterns | No real activity |
+| Routes | Organic paths | Repetitive / fake |
 
-Fraud via:
+**2. Multi-Signal Verification**
 
-GPS spoofing
+We cross-validate every claim across 6 independent signals — making spoofing exponentially harder.
 
-Fake weather claims
+**3. Fair UX — Soft Flagging (Not Hard Rejection)**
 
-Coordinated attacks
+```
+⚠️  Flagged  →  📸 Soft Verification  →  ✔️ Genuine Cleared  /  ❌ Fraud Blocked
+```
 
-🔥 Our Solution
-1. Behavioral Differentiation
-Real Worker	Fraud User
-Natural movement	Static/spoofed
-Delivery patterns	No activity
-Random routes	Repetitive
-2. Multi-Signal Verification
+Legitimate workers are never wrongly penalized.
 
-We analyze:
+---
 
-📱 Accelerometer
+## 🔌 Integrations
 
-🔄 Gyroscope
+- 🌦️ Weather API
+- 🌫️ AQI API
+- 🗺️ Maps / Location Services
+- 💳 Payment Gateway *(Mock)*
 
-🔋 Battery usage
+---
 
-📶 Network variation
+## 🛠️ Tech Stack
 
-📍 Route history
+| Layer | Technology |
+|-------|-----------|
+| 🖥️ Frontend | React / Flutter |
+| ⚙️ Backend | Node.js / Django |
+| 🧠 AI / ML | Python |
+| 🗄️ Database | MongoDB |
 
-⏱️ Activity patterns
+---
 
-3. Fair UX System
+## 📁 Project Structure
 
-Instead of rejecting:
+```
+trustshield-ai/
+├── 📂 client/          # React / Flutter frontend
+├── 📂 server/          # Node.js / Django backend
+├── 📂 ml-models/       # AI risk & fraud detection models
+├── 📂 docs/            # Documentation
+└── 📄 README.md
+```
 
-⚠️ Flag → Soft verification
+---
 
-📸 Selfie + live check
+## 🎥 Demo
 
-✔️ Genuine users → smooth
-❌ Fraud users → blocked
+> 👉 **[Add your 2-minute demo video link here]**
 
-🔌 Integrations
+---
 
-Weather API
+## 👥 Team
 
-AQI API
+| | |
+|--|--|
+| **Team Name** | Rebounders |
+| **Members** | Sohail Akhtar, Sunny Kumar & Snigdha Negi|
 
-Maps / Location
+---
 
-Payment Gateway (Mock)
+## 🏁 Why TrustShield Wins
 
-🛠️ Tech Stack
-Layer	Tech
-Frontend	React / Flutter
-Backend	Node.js / Django
-AI/ML	Python
-Database	MongoDB
-📁 Project Structure
-/client
-/server
-/ml-models
-/docs
-README.md
-🎥 Demo
+- ✅ Real-world fraud solution — not just rule-based filters
+- ✅ AI-driven dynamic pricing per worker
+- ✅ Behavior-based claim validation
+- ✅ Scalable architecture for any gig platform
 
-👉 Add your 2-minute video link here
+---
 
-👥 Team
+<div align="center">
 
-Team Name: [Your Team Name]
+**Built for gig workers. Powered by behavior. Secured by AI.**
 
-Members: [Names]
-
-🏁 Why TrustShield Wins
-
-✔️ Real-world fraud solution
-✔️ AI-driven pricing
-✔️ Behavior-based validation
-✔️ Scalable architecture
+</div>
