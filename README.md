@@ -184,12 +184,6 @@ trustshield-ai/
 
 ---
 
-## 🎥 Demo
-
-> 👉 **[Add your 2-minute demo video link here]**
-
----
-
 ## 👥 Team
 
 | | |
